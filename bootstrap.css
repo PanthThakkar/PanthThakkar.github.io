@@ -216,8 +216,10 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 svg:not(:root) {
@@ -9148,6 +9150,7 @@ button.bg-dark:focus {
 
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: large;
 }
 
 .text-justify {

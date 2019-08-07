@@ -1,2 +1,4 @@
 // config.js
-console.log("It works");
+function myLinkedin(){
+    window.opener("https://www.linkedin.com/in/panth-thakkar-966611149/");
+}
